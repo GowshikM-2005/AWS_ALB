@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "mybucket"
+    bucket = "terraform-webbucket"
     region = "us-east-1"
   }
 }
